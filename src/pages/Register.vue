@@ -10,20 +10,20 @@
             />
 
           <q-input
-            label="Email"
+            label="E-mail"
             v-model="form.email"
              outlined
             />
 
             <q-input
-            label="Password"
+            label="Senha"
             v-model="form.password"
             outlined
             />
 
             <div class="full-width q-pt-md">
               <q-btn
-                label="Register"
+                label="Registrar-se"
                 color="primary"
                 class="full-width"
                 type="submit"
