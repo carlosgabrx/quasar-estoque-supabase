@@ -64,7 +64,7 @@ export default defineComponent({
     const router = useRouter()
     const { register } = useAuthUser()
 
-    const { notifySuccess, notifyError } = useNotify
+    const { notifySuccess, notifyError } = useNotify()
 
     const form = ref({
       name: '',
